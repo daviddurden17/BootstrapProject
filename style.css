@@ -1,0 +1,133 @@
+body {
+    background-color:black;
+}
+#navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    opacity: 100%;
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: right;
+    padding: 15px;
+    text-decoration: none;
+    opacity: 100%;
+  }
+  
+  #navbar a:hover {
+    background-color: teal;
+    color: white;
+    opacity: 100%;
+  }
+
+.maintext {
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+#logos {
+    background-image: linear-gradient(to right, blue, red);
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+
+.cbs {
+    height: 100px;
+
+    width: 100px;
+    filter: invert(100%);
+}
+
+.cla {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+    
+}
+
+.feetures {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.girls {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.icf {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.itv {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.mountain {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.container-fluid {
+    background-color:whitesmoke;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 200px;
+}
+
+#stuff {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 200px;
+}
+
+#authors {
+    background-color: white;
+    text-align: left;
+    position: relative;
+    margin: auto;
+    top: 200px;
+}
+
+#contact {    
+    background-image: url("https://cdn.wallpapersafari.com/83/15/0ejEW2.jpg");
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 200px;
+
+}
+
+#location{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 200px;
+}
+
